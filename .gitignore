@@ -1,2 +1,31 @@
+# Bytecode do Python
+__pycache__/
+*.py[cod]
+
+# Ambientes virtuais
 .env
-venv
+env/
+venv/
+
+# Arquivos de log
+*.log
+
+# Configurações do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de testes temporários
+*.pytest_cache/
+
+# Arquivos de IDEs
+.vscode/
+.idea/
+
+# Arquivos de pacotes
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Arquivos de banco de dados SQLite (se aplicável)
+*.sqlite3
